@@ -6,15 +6,15 @@ using GestAsso.Droid.Assets;
 
 namespace GestAsso.Droid.Fragments
 {
-    public class FragmentHome : FragmentMain
+    public class FragmentAbout : FragmentMain
     {
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             var user = XTools.User;
-            var view = InitView(Resource.String.HomeTitle, this, Resource.Layout.FragmentLayoutHome, inflater,
+            var view = InitView(Resource.String.AboutTitle, this, Resource.Layout.FragmentLayoutAbout, inflater,
                 container);
-            view.FindViewById<TextView>(Resource.Id.UtilisateurText).Text = user.FullName;
-            view.FindViewById<TextView>(Resource.Id.EmailText).Text = user.Email;
+            //view.FindViewById<TextView>(Resource.Id.UtilisateurText).Text = user.FullName;
+            //view.FindViewById<TextView>(Resource.Id.EmailText).Text = user.Email;
             return view;
         }
     }

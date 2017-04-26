@@ -30,7 +30,7 @@ namespace GestAsso.Droid.Activities
                 => { Authentication.OAuth("Twitter", this); };
 
             //Autologin
-            var dict = new Dictionary<string, string>()
+            var dict = new Dictionary<string, string>
             {
                 {"ID", new Guid().ToString()},
                 {"Email", "test@test.com"},

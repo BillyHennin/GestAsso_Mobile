@@ -7,11 +7,11 @@
       android:icon="@drawable/ic_home"
       android:title="@string/MenuHome" />
     <item
-      android:id="@+id/nav_settings"
-      android:icon="@drawable/ic_settings"
+      android:id="@+id/nav_talk"
+      android:icon="@drawable/ic_chat_black_24dp"
       android:title="@string/MenuTalk" />
     <item
-      android:id="@+id/nav_settings"
+      android:id="@+id/nav_account"
       android:icon="@drawable/ic_settings"
       android:title="@string/MenuAccount" />
   </group>

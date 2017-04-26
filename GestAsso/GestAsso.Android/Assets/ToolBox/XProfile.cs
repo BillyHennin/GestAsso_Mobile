@@ -28,7 +28,7 @@ namespace GestAsso.Droid.Assets.ToolBox
             }
             catch
             {
-                XMessage.ShowError(Resource.String.ErrorUnknow);
+                //XMessage.ShowError(Resource.String.ErrorUnknow);
             }
             return null;
         }

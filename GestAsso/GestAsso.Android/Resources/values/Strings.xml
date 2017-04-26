@@ -16,17 +16,6 @@
   <string name="NewEmailConfirm">Confirmation de l\'Email</string>
   <string name="NewPassword">Nouveau mot de passe</string>
 
-  <!-- Titres -->
-  <string name="AccountTitle">Informations sur le compte</string>
-  <string name="LoginTitle">Authentification</string>
-  <string name="HomeTitle">Accueil</string>
-  <string name="WeatherTitle">Météo</string>
-  <string name="AboutTitle">À propos</string>
-  <string name="SettingsTitle">Action Stack</string>
-  <string name="RecyclerTitle">Liste sans fin</string>
-  <string name="ListTitle">Liste normale</string>
-  <string name="UserTitle"></string>
-
   <!-- Bouttons -->
   <string name="Login">Se connecter</string>
   <string name="Register">S\'enregister</string>

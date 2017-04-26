@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <string name="AccountTitle">Informations sur le compte</string>
+  <string name="LoginTitle">Authentification</string>
+  <string name="HomeTitle">Accueil</string>
+  <string name="TalkTitle">Discussions</string>
+  <string name="SettingsTitle">Compte</string>
+  <string name="AboutTitle">À propos</string>
+  <string name="UserTitle"></string>
+</resources>

@@ -19,6 +19,9 @@ namespace GestAsso.Droid.Activities
     {
         private static NavigationView _navigationView;
         private static readonly FragmentHome FragmentHome = new FragmentHome();
+        private static readonly FragmentTalk FragmentTalk = new FragmentTalk(); 
+        private static readonly FragmentAccount FragmentAccount = new FragmentAccount(); 
+        private static readonly FragmentAbout FragmentAbout = new FragmentAbout();
 
         public DrawerLayout DrawerLayout;
 
@@ -63,6 +66,15 @@ namespace GestAsso.Droid.Activities
             {
                 case Resource.Id.nav_home:
                     XTools.ChangeFragment(FragmentHome);
+                    break;
+                case Resource.Id.nav_talk:
+                    XTools.ChangeFragment(FragmentTalk);
+                    break;
+                case Resource.Id.nav_account:
+                    XTools.ChangeFragment(FragmentAccount);
+                    break;
+                case Resource.Id.nav_about:
+                    XTools.ChangeFragment(FragmentAbout);
                     break;
                 case Resource.Id.nav_disconnect:
                     XMessage.ShowQuestion(Resource.String.MenuDisconnect, Resource.String.DialogDisconnect,
@@ -113,21 +125,13 @@ namespace GestAsso.Droid.Activities
             switch (fragment.IdTitle)
             {
                 case Resource.String.HomeTitle:
-                case Resource.String.ChangeMail:
-                case Resource.String.ChangePWD:
                     index = 0;
                     break;
-                case Resource.String.WeatherTitle:
+                case Resource.String.TalkTitle:
                     index = 1;
                     break;
-                case Resource.String.SettingsTitle:
+                case Resource.String.AccountTitle:
                     index = 2;
-                    break;
-                case Resource.String.RecyclerTitle:
-                    index = 3;
-                    break;
-                case Resource.String.ListTitle:
-                    index = 4;
                     break;
                 default:
                     index = -1;
