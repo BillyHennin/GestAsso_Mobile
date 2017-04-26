@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using System.Collections.Generic;
+using System.Net;
 using Android.App;
 using Android.Content.PM;
 using Android.OS;
@@ -22,6 +23,14 @@ namespace GestAsso.Droid.Activities
         private static readonly FragmentTalk FragmentTalk = new FragmentTalk(); 
         private static readonly FragmentAccount FragmentAccount = new FragmentAccount(); 
         private static readonly FragmentAbout FragmentAbout = new FragmentAbout();
+        private static readonly FragmentEvent FragmentEvent = new FragmentEvent();
+        private static readonly List<int> ListTitle = new List<int>
+        {
+            Resource.String.HomeTitle,
+            Resource.String.EventTitle,
+            Resource.String.TalkTitle,
+            Resource.String.AccountTitle
+        };
 
         public DrawerLayout DrawerLayout;
 
@@ -49,8 +58,7 @@ namespace GestAsso.Droid.Activities
 
             // Creation d'un bouton ActionBarDrawerToggle et ajout é la bar d'action.
             DrawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
-            var drawerToggle = new ActionBarDrawerToggle(this, DrawerLayout, toolbar, Resource.String.MenuOpened,
-                Resource.String.MenuHome);
+            var drawerToggle = new ActionBarDrawerToggle(this, DrawerLayout, toolbar, Resource.String.MenuOpened, Resource.String.MenuHome);
             DrawerLayout.AddDrawerListener(drawerToggle);
             drawerToggle.SyncState();
         }
@@ -66,6 +74,9 @@ namespace GestAsso.Droid.Activities
             {
                 case Resource.Id.nav_home:
                     XTools.ChangeFragment(FragmentHome);
+                    break;
+                case Resource.Id.nav_event:
+                    XTools.ChangeFragment(FragmentEvent);
                     break;
                 case Resource.Id.nav_talk:
                     XTools.ChangeFragment(FragmentTalk);
@@ -120,25 +131,8 @@ namespace GestAsso.Droid.Activities
         /// <param name="fragment">Fragment</param>
         /// <returns>Numéro dans la liste (Menu lateral)</returns>
         private static int GetIndex(FragmentMain fragment)
-        {
-            int index;
-            switch (fragment.IdTitle)
-            {
-                case Resource.String.HomeTitle:
-                    index = 0;
-                    break;
-                case Resource.String.TalkTitle:
-                    index = 1;
-                    break;
-                case Resource.String.AccountTitle:
-                    index = 2;
-                    break;
-                default:
-                    index = -1;
-                    break;
-            }
-            return index;
-        }
+            => ListTitle.Contains(fragment.IdTitle) ? ListTitle.FindIndex(x => x == fragment.IdTitle) : -1;
+
         #endregion
     }
 }

@@ -14,18 +14,16 @@ namespace GestAsso.Droid.Activities
             base.OnResume();
             var startupWork = new Task(async () =>
             {
+                var isConnected = Equals(XProfile.Get(), null);
                 for (var i = 0; i < 100; i++)
                 {
                     await Task.Delay(10);
                 }
-            });
-            startupWork.ContinueWith(t =>
-            {
-                StartActivity(new Intent(Application.Context, Equals(XProfile.Get(), null)
+                StartActivity(new Intent(Application.Context, isConnected
                     ? typeof(ActivityLogin)
                     : typeof(ActivityMain)));
                 Finish();
-            }, TaskScheduler.FromCurrentSynchronizationContext());
+            });
             startupWork.Start();
         }
     }

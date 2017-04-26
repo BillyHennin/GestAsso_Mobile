@@ -4,6 +4,7 @@
   <string name="LoginTitle">Authentification</string>
   <string name="HomeTitle">Accueil</string>
   <string name="TalkTitle">Discussions</string>
+  <string name="EventTitle">Evenements</string>
   <string name="SettingsTitle">Compte</string>
   <string name="AboutTitle">À propos</string>
   <string name="UserTitle"></string>

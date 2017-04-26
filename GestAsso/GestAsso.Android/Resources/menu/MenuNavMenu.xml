@@ -4,24 +4,30 @@
   <group android:checkableBehavior="single">
     <item
       android:id="@+id/nav_home"
-      android:icon="@drawable/ic_home"
+      android:icon="@drawable/ic_home_black_24dp"
       android:title="@string/MenuHome" />
+    <item
+      android:id="@+id/nav_event"
+      android:icon="@drawable/ic_location_city_black_24dp"
+      android:title="@string/MenuEvent" />
     <item
       android:id="@+id/nav_talk"
       android:icon="@drawable/ic_chat_black_24dp"
       android:title="@string/MenuTalk" />
     <item
       android:id="@+id/nav_account"
-      android:icon="@drawable/ic_settings"
+      android:icon="@drawable/ic_account_circle_black_24dp"
       android:title="@string/MenuAccount" />
   </group>
   <item>
     <menu>
       <item
         android:id="@+id/nav_about"
+        android:icon="@drawable/ic_settings_black_24dp"
         android:title="@string/MenuAbout" />
       <item
         android:id="@+id/nav_disconnect"
+        android:icon="@drawable/ic_power_settings_new_black_24dp"
         android:title="@string/MenuDisconnect" />
     </menu>
   </item>

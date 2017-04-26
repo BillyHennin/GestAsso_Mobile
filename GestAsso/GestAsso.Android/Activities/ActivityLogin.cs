@@ -28,7 +28,10 @@ namespace GestAsso.Droid.Activities
                 => { Authentication.OAuth("Google", this); };
             FindViewById<Button>(Resource.Id.TwitterAuthButton).Click += (s, a)
                 => { Authentication.OAuth("Twitter", this); };
+        }
 
+        private void SimpleAuthButtonClick(object s, EventArgs a)
+        {
             //Autologin
             var dict = new Dictionary<string, string>
             {
@@ -37,13 +40,11 @@ namespace GestAsso.Droid.Activities
                 {"FirstName", "Billy"},
                 {"LastName", "Hennin"},
                 {"Phone", "0102030405" },
-                {"UserRole", UserRole.Adherent.ToString()}
+                {"Role", UserRole.Adherent.ToString()}
             };
             Authentication.Authenticate(new UserProfile(dict), this);
-        }
+            return;
 
-        private void SimpleAuthButtonClick(object s, EventArgs a)
-        {
             if (!XNetwork.CheckNetwork(this))
             {
                 return;

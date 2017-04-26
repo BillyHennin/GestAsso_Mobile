@@ -45,7 +45,7 @@ namespace GestAsso.Assets.Users
             Email = dictionary["Email"];
             FirstName = dictionary["FirstName"];
             LastName = dictionary["LastName"];
-            Role = (UserRole) Enum.Parse(typeof(UserRole), dictionary["UserRole"], true);
+            Role = (UserRole) Enum.Parse(typeof(UserRole), dictionary["Role"], true);
             Phone = dictionary["Phone"];
         }
 

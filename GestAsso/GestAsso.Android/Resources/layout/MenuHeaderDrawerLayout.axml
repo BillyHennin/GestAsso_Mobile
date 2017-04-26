@@ -12,7 +12,8 @@
         android:orientation="vertical"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:background="#2c3e5099">
         <TextView
             android:id="@+id/txtViewTitle"
             android:layout_width="wrap_content"
@@ -22,8 +23,10 @@
             android:text="@string/ApplicationName"
             android:textSize="20dp"
             android:textStyle="bold"
-            android:typeface="sans" />
-      <TextView
+            android:typeface="sans"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:backgroundTint="#00000000" />
+        <TextView
             android:id="@+id/txtViewSubTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

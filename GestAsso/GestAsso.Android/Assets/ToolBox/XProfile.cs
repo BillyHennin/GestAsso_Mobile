@@ -23,7 +23,12 @@ namespace GestAsso.Droid.Assets.ToolBox
                 var strJson = JObject.Parse(strAuth);
                 if (strJson != null)
                 {
-                    return new UserProfile(XTools.JsonToDict(strJson.ToString()));
+                    var user = new UserProfile(XTools.JsonToDict(strJson.ToString()));
+                    if (Equals(XTools.User, null))
+                    {
+                        XTools.User = user;
+                    }
+                    return user;
                 }
             }
             catch
