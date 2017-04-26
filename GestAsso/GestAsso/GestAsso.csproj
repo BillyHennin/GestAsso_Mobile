@@ -31,8 +31,56 @@
     <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="MyClass.cs" />
+    <Compile Include="Assets\Events\EventActivities.cs" />
+    <Compile Include="Assets\Events\EventExternal.cs" />
+    <Compile Include="Assets\Events\Events.cs" />
+    <Compile Include="Assets\Surveys\Awnsers.cs" />
+    <Compile Include="Assets\Surveys\Questions.cs" />
+    <Compile Include="Assets\Surveys\Survey.cs" />
+    <Compile Include="Assets\Surveys\SurveyAwnser.cs" />
+    <Compile Include="Assets\ToolBox\XAction.cs" />
+    <Compile Include="Assets\ToolBox\XApi.cs" />
+    <Compile Include="Assets\ToolBox\XAuth.cs" />
+    <Compile Include="Assets\ToolBox\XInputs.cs" />
+    <Compile Include="Assets\ToolBox\XLog.cs" />
+    <Compile Include="Assets\ToolBox\XMessage.cs" />
+    <Compile Include="Assets\ToolBox\XNetwork.cs" />
+    <Compile Include="Assets\ToolBox\XProfile.cs" />
+    <Compile Include="Assets\ToolBox\XTools.cs" />
+    <Compile Include="Assets\ToolBox\XUi.cs" />
+    <Compile Include="Assets\Users\UserProfile.cs" />
+    <Compile Include="Assets\Users\UserTeam.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="ModernHttpClient, Version=2.4.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\modernhttpclient.2.4.2\lib\Portable-Net45+WinRT45+WP8+WPA81\ModernHttpClient.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Mono.Android">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v6.0\Mono.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.10.0.2\lib\portable-net45+win8+wpa81+wp8\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Plugin.Connectivity, Version=2.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xam.Plugin.Connectivity.2.3.0\lib\portable-net45+wp80+win8+wpa81\Plugin.Connectivity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Plugin.Connectivity.Abstractions, Version=2.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xam.Plugin.Connectivity.2.3.0\lib\portable-net45+wp80+win8+wpa81\Plugin.Connectivity.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Json">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\System.Net.Http.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>
