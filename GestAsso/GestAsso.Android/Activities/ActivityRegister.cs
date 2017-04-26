@@ -50,13 +50,13 @@ namespace GestAsso.Droid.Activities
                 {
                     return;
                 }
-                var dUser = new Dictionary<string, string>
+                var dUser = new Dictionary<string, object>
                 {
                     {"Email", strEmail},
                     {"Password", strPassword},
                     {"LastName", strNom},
                     {"FirstName", strPrenom},
-                    {"Role" , UserRole.EnAttente.ToString()}
+                    {"Role" , UserRole.EnAttente}
                 };
                 Authentication.SimpleRegister(dUser, this);
             }

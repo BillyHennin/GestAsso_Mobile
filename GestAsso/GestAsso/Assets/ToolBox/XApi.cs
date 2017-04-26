@@ -44,10 +44,10 @@ namespace GestAsso.Assets.ToolBox
         public static bool RegisterVerifyEmail(string strEmail)
             => XNetwork.GetJsonFromWeb($"{StrApiUrl}/Register/VerifyEmail/{strEmail}").Result["Result"];
 
-        public static UserProfile RegisterNewUser(IReadOnlyDictionary<string, string> dict) 
+        public static UserProfile RegisterNewUser(IReadOnlyDictionary<string, object> dict) 
             => RegisterNewUser(dict["Email"], dict["Password"], dict["FirstName"], dict["LastName"], dict["Role"]);
 
-        public static UserProfile RegisterNewUser(string email, string password, string firstName, string lastName, string role)
+        public static UserProfile RegisterNewUser(object email, object password, object firstName, object lastName, object role)
             => new UserProfile(XTools.JsonToDict(XNetwork
                 .GetJsonFromWeb($"{StrApiUrl}/Register/Add/{email}/{password}/{firstName}/{lastName}/{role}").Result));
     }

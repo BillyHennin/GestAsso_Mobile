@@ -10,4 +10,10 @@
       android:tileMode="disabled"
       android:gravity="center" />
   </item>
+  <item>
+    <bitmap
+      android:src="@drawable/splash_background"
+      android:tileMode="disabled"
+      android:gravity="center" />
+  </item>
 </layer-list>

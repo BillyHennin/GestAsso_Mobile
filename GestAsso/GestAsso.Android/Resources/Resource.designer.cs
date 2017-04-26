@@ -2173,11 +2173,11 @@ namespace GestAsso.Droid
 			// aapt resource value: 0x7f02006b
 			public const int notification_icon_background = 2130837611;
 			
-			// aapt resource value: 0x7f020070
-			public const int notification_template_icon_bg = 2130837616;
-			
 			// aapt resource value: 0x7f020071
-			public const int notification_template_icon_low_bg = 2130837617;
+			public const int notification_template_icon_bg = 2130837617;
+			
+			// aapt resource value: 0x7f020072
+			public const int notification_template_icon_low_bg = 2130837618;
 			
 			// aapt resource value: 0x7f02006c
 			public const int notification_tile_bg = 2130837612;
@@ -2186,10 +2186,13 @@ namespace GestAsso.Droid
 			public const int notify_panel_notification_icon_bg = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int splash_logo = 2130837614;
+			public const int splash_background = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int splash_screen = 2130837615;
+			public const int splash_logo = 2130837615;
+			
+			// aapt resource value: 0x7f020070
+			public const int splash_screen = 2130837616;
 			
 			static Drawable()
 			{
@@ -2210,11 +2213,11 @@ namespace GestAsso.Droid
 			// aapt resource value: 0x7f080079
 			public const int AuthButton = 2131230841;
 			
-			// aapt resource value: 0x7f08009b
-			public const int ChangeMailButton = 2131230875;
+			// aapt resource value: 0x7f0800a1
+			public const int ChangeMailButton = 2131230881;
 			
-			// aapt resource value: 0x7f08009c
-			public const int ChangePWDButton = 2131230876;
+			// aapt resource value: 0x7f0800a2
+			public const int ChangePWDButton = 2131230882;
 			
 			// aapt resource value: 0x7f080084
 			public const int Email = 2131230852;
@@ -2240,8 +2243,8 @@ namespace GestAsso.Droid
 			// aapt resource value: 0x7f080094
 			public const int LineMainLayoutHome = 2131230868;
 			
-			// aapt resource value: 0x7f08009d
-			public const int Menu_headerdrawerlayout = 2131230877;
+			// aapt resource value: 0x7f0800a3
+			public const int Menu_headerdrawerlayout = 2131230883;
 			
 			// aapt resource value: 0x7f080082
 			public const int Nom = 2131230850;
@@ -2255,11 +2258,29 @@ namespace GestAsso.Droid
 			// aapt resource value: 0x7f080078
 			public const int PasswordText = 2131230840;
 			
+			// aapt resource value: 0x7f08009f
+			public const int PhoneLabel = 2131230879;
+			
+			// aapt resource value: 0x7f08009e
+			public const int PhoneSection = 2131230878;
+			
+			// aapt resource value: 0x7f0800a0
+			public const int PhoneText = 2131230880;
+			
 			// aapt resource value: 0x7f080083
 			public const int Prenom = 2131230851;
 			
 			// aapt resource value: 0x7f08007a
 			public const int RegisterButton = 2131230842;
+			
+			// aapt resource value: 0x7f08009c
+			public const int RoleLabel = 2131230876;
+			
+			// aapt resource value: 0x7f08009b
+			public const int RoleSection = 2131230875;
+			
+			// aapt resource value: 0x7f08009d
+			public const int RoleText = 2131230877;
 			
 			// aapt resource value: 0x7f08007d
 			public const int TwitterAuthButton = 2131230845;
@@ -2276,8 +2297,8 @@ namespace GestAsso.Droid
 			// aapt resource value: 0x7f080087
 			public const int ValidateRegisterButton = 2131230855;
 			
-			// aapt resource value: 0x7f0800a3
-			public const int action0 = 2131230883;
+			// aapt resource value: 0x7f0800a9
+			public const int action0 = 2131230889;
 			
 			// aapt resource value: 0x7f080064
 			public const int action_bar = 2131230820;
@@ -2300,17 +2321,17 @@ namespace GestAsso.Droid
 			// aapt resource value: 0x7f080041
 			public const int action_bar_title = 2131230785;
 			
-			// aapt resource value: 0x7f0800a0
-			public const int action_container = 2131230880;
+			// aapt resource value: 0x7f0800a6
+			public const int action_container = 2131230886;
 			
 			// aapt resource value: 0x7f080065
 			public const int action_context_bar = 2131230821;
 			
-			// aapt resource value: 0x7f0800a7
-			public const int action_divider = 2131230887;
+			// aapt resource value: 0x7f0800ad
+			public const int action_divider = 2131230893;
 			
-			// aapt resource value: 0x7f0800a1
-			public const int action_image = 2131230881;
+			// aapt resource value: 0x7f0800a7
+			public const int action_image = 2131230887;
 			
 			// aapt resource value: 0x7f080003
 			public const int action_menu_divider = 2131230723;
@@ -2327,11 +2348,11 @@ namespace GestAsso.Droid
 			// aapt resource value: 0x7f080043
 			public const int action_mode_close_button = 2131230787;
 			
-			// aapt resource value: 0x7f0800a2
-			public const int action_text = 2131230882;
+			// aapt resource value: 0x7f0800a8
+			public const int action_text = 2131230888;
 			
-			// aapt resource value: 0x7f0800b0
-			public const int actions = 2131230896;
+			// aapt resource value: 0x7f0800b6
+			public const int actions = 2131230902;
 			
 			// aapt resource value: 0x7f080044
 			public const int activity_chooser_view_content = 2131230788;
@@ -2360,8 +2381,8 @@ namespace GestAsso.Droid
 			// aapt resource value: 0x7f08004b
 			public const int buttonPanel = 2131230795;
 			
-			// aapt resource value: 0x7f0800a4
-			public const int cancel_action = 2131230884;
+			// aapt resource value: 0x7f0800aa
+			public const int cancel_action = 2131230890;
 			
 			// aapt resource value: 0x7f080030
 			public const int center = 2131230768;
@@ -2375,8 +2396,8 @@ namespace GestAsso.Droid
 			// aapt resource value: 0x7f08005b
 			public const int checkbox = 2131230811;
 			
-			// aapt resource value: 0x7f0800ac
-			public const int chronometer = 2131230892;
+			// aapt resource value: 0x7f0800b2
+			public const int chronometer = 2131230898;
 			
 			// aapt resource value: 0x7f080039
 			public const int clip_horizontal = 2131230777;
@@ -2429,8 +2450,8 @@ namespace GestAsso.Droid
 			// aapt resource value: 0x7f080021
 			public const int end = 2131230753;
 			
-			// aapt resource value: 0x7f0800b6
-			public const int end_padder = 2131230902;
+			// aapt resource value: 0x7f0800bc
+			public const int end_padder = 2131230908;
 			
 			// aapt resource value: 0x7f08002a
 			public const int enterAlways = 2131230762;
@@ -2468,8 +2489,8 @@ namespace GestAsso.Droid
 			// aapt resource value: 0x7f080049
 			public const int icon = 2131230793;
 			
-			// aapt resource value: 0x7f0800b1
-			public const int icon_group = 2131230897;
+			// aapt resource value: 0x7f0800b7
+			public const int icon_group = 2131230903;
 			
 			// aapt resource value: 0x7f080025
 			public const int ifRoom = 2131230757;
@@ -2480,8 +2501,8 @@ namespace GestAsso.Droid
 			// aapt resource value: 0x7f080076
 			public const int imageView1 = 2131230838;
 			
-			// aapt resource value: 0x7f0800ad
-			public const int info = 2131230893;
+			// aapt resource value: 0x7f0800b3
+			public const int info = 2131230899;
 			
 			// aapt resource value: 0x7f080000
 			public const int item_touch_helper_previous_elevation = 2131230720;
@@ -2495,11 +2516,11 @@ namespace GestAsso.Droid
 			// aapt resource value: 0x7f080034
 			public const int left = 2131230772;
 			
-			// aapt resource value: 0x7f0800b2
-			public const int line1 = 2131230898;
+			// aapt resource value: 0x7f0800b8
+			public const int line1 = 2131230904;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int line3 = 2131230900;
+			// aapt resource value: 0x7f0800ba
+			public const int line3 = 2131230906;
 			
 			// aapt resource value: 0x7f080075
 			public const int linearLayout1 = 2131230837;
@@ -2510,11 +2531,11 @@ namespace GestAsso.Droid
 			// aapt resource value: 0x7f080048
 			public const int list_item = 2131230792;
 			
-			// aapt resource value: 0x7f0800b8
-			public const int masked = 2131230904;
+			// aapt resource value: 0x7f0800be
+			public const int masked = 2131230910;
 			
-			// aapt resource value: 0x7f0800a6
-			public const int media_actions = 2131230886;
+			// aapt resource value: 0x7f0800ac
+			public const int media_actions = 2131230892;
 			
 			// aapt resource value: 0x7f080022
 			public const int middle = 2131230754;
@@ -2525,23 +2546,23 @@ namespace GestAsso.Droid
 			// aapt resource value: 0x7f08001a
 			public const int multiply = 2131230746;
 			
-			// aapt resource value: 0x7f0800bd
-			public const int nav_about = 2131230909;
+			// aapt resource value: 0x7f0800c3
+			public const int nav_about = 2131230915;
 			
-			// aapt resource value: 0x7f0800bc
-			public const int nav_account = 2131230908;
+			// aapt resource value: 0x7f0800c2
+			public const int nav_account = 2131230914;
 			
-			// aapt resource value: 0x7f0800be
-			public const int nav_disconnect = 2131230910;
+			// aapt resource value: 0x7f0800c4
+			public const int nav_disconnect = 2131230916;
 			
-			// aapt resource value: 0x7f0800ba
-			public const int nav_event = 2131230906;
+			// aapt resource value: 0x7f0800c0
+			public const int nav_event = 2131230912;
 			
-			// aapt resource value: 0x7f0800b9
-			public const int nav_home = 2131230905;
+			// aapt resource value: 0x7f0800bf
+			public const int nav_home = 2131230911;
 			
-			// aapt resource value: 0x7f0800bb
-			public const int nav_talk = 2131230907;
+			// aapt resource value: 0x7f0800c1
+			public const int nav_talk = 2131230913;
 			
 			// aapt resource value: 0x7f080081
 			public const int nav_view = 2131230849;
@@ -2558,14 +2579,14 @@ namespace GestAsso.Droid
 			// aapt resource value: 0x7f080010
 			public const int normal = 2131230736;
 			
+			// aapt resource value: 0x7f0800b5
+			public const int notification_background = 2131230901;
+			
 			// aapt resource value: 0x7f0800af
-			public const int notification_background = 2131230895;
+			public const int notification_main_column = 2131230895;
 			
-			// aapt resource value: 0x7f0800a9
-			public const int notification_main_column = 2131230889;
-			
-			// aapt resource value: 0x7f0800a8
-			public const int notification_main_column_container = 2131230888;
+			// aapt resource value: 0x7f0800ae
+			public const int notification_main_column_container = 2131230894;
 			
 			// aapt resource value: 0x7f080037
 			public const int parallax = 2131230775;
@@ -2588,11 +2609,11 @@ namespace GestAsso.Droid
 			// aapt resource value: 0x7f080035
 			public const int right = 2131230773;
 			
-			// aapt resource value: 0x7f0800ae
-			public const int right_icon = 2131230894;
+			// aapt resource value: 0x7f0800b4
+			public const int right_icon = 2131230900;
 			
-			// aapt resource value: 0x7f0800aa
-			public const int right_side = 2131230890;
+			// aapt resource value: 0x7f0800b0
+			public const int right_side = 2131230896;
 			
 			// aapt resource value: 0x7f08001b
 			public const int screen = 2131230747;
@@ -2690,8 +2711,8 @@ namespace GestAsso.Droid
 			// aapt resource value: 0x7f080036
 			public const int start = 2131230774;
 			
-			// aapt resource value: 0x7f0800a5
-			public const int status_bar_latest_event_content = 2131230885;
+			// aapt resource value: 0x7f0800ab
+			public const int status_bar_latest_event_content = 2131230891;
 			
 			// aapt resource value: 0x7f08005e
 			public const int submenuarrow = 2131230814;
@@ -2702,11 +2723,11 @@ namespace GestAsso.Droid
 			// aapt resource value: 0x7f080011
 			public const int tabMode = 2131230737;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int text = 2131230901;
+			// aapt resource value: 0x7f0800bb
+			public const int text = 2131230907;
 			
-			// aapt resource value: 0x7f0800b3
-			public const int text2 = 2131230899;
+			// aapt resource value: 0x7f0800b9
+			public const int text2 = 2131230905;
 			
 			// aapt resource value: 0x7f080052
 			public const int textSpacerNoButtons = 2131230802;
@@ -2723,8 +2744,8 @@ namespace GestAsso.Droid
 			// aapt resource value: 0x7f08000d
 			public const int textinput_error = 2131230733;
 			
-			// aapt resource value: 0x7f0800ab
-			public const int time = 2131230891;
+			// aapt resource value: 0x7f0800b1
+			public const int time = 2131230897;
 			
 			// aapt resource value: 0x7f08004a
 			public const int title = 2131230794;
@@ -2750,11 +2771,11 @@ namespace GestAsso.Droid
 			// aapt resource value: 0x7f08000b
 			public const int transition_scene_layoutid_cache = 2131230731;
 			
-			// aapt resource value: 0x7f08009f
-			public const int txtViewSubTitle = 2131230879;
+			// aapt resource value: 0x7f0800a5
+			public const int txtViewSubTitle = 2131230885;
 			
-			// aapt resource value: 0x7f08009e
-			public const int txtViewTitle = 2131230878;
+			// aapt resource value: 0x7f0800a4
+			public const int txtViewTitle = 2131230884;
 			
 			// aapt resource value: 0x7f080009
 			public const int up = 2131230729;
@@ -2765,8 +2786,8 @@ namespace GestAsso.Droid
 			// aapt resource value: 0x7f08000e
 			public const int view_offset_helper = 2131230734;
 			
-			// aapt resource value: 0x7f0800b7
-			public const int visible = 2131230903;
+			// aapt resource value: 0x7f0800bd
+			public const int visible = 2131230909;
 			
 			// aapt resource value: 0x7f080073
 			public const int webview = 2131230835;
@@ -2924,124 +2945,127 @@ namespace GestAsso.Droid
 			public const int ActivityLayoutRegister = 2130903070;
 			
 			// aapt resource value: 0x7f03001f
-			public const int design_bottom_navigation_item = 2130903071;
+			public const int ActivityLayoutSplash = 2130903071;
 			
 			// aapt resource value: 0x7f030020
-			public const int design_bottom_sheet_dialog = 2130903072;
+			public const int design_bottom_navigation_item = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int design_layout_snackbar = 2130903073;
+			public const int design_bottom_sheet_dialog = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int design_layout_snackbar_include = 2130903074;
+			public const int design_layout_snackbar = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int design_layout_tab_icon = 2130903075;
+			public const int design_layout_snackbar_include = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int design_layout_tab_text = 2130903076;
+			public const int design_layout_tab_icon = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int design_menu_item_action_area = 2130903077;
+			public const int design_layout_tab_text = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int design_navigation_item = 2130903078;
+			public const int design_menu_item_action_area = 2130903078;
 			
 			// aapt resource value: 0x7f030027
-			public const int design_navigation_item_header = 2130903079;
+			public const int design_navigation_item = 2130903079;
 			
 			// aapt resource value: 0x7f030028
-			public const int design_navigation_item_separator = 2130903080;
+			public const int design_navigation_item_header = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int design_navigation_item_subheader = 2130903081;
+			public const int design_navigation_item_separator = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int design_navigation_menu = 2130903082;
+			public const int design_navigation_item_subheader = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int design_navigation_menu_item = 2130903083;
+			public const int design_navigation_menu = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int design_text_input_password_icon = 2130903084;
+			public const int design_navigation_menu_item = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int FragmentLayoutAbout = 2130903085;
+			public const int design_text_input_password_icon = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int FragmentLayoutAccount = 2130903086;
+			public const int FragmentLayoutAbout = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int FragmentLayoutEvent = 2130903087;
+			public const int FragmentLayoutAccount = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int FragmentLayoutHome = 2130903088;
+			public const int FragmentLayoutEvent = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int FragmentLayoutTalk = 2130903089;
+			public const int FragmentLayoutHome = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int Menu_Appbar = 2130903090;
+			public const int FragmentLayoutTalk = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int MenuHeaderDrawerLayout = 2130903091;
+			public const int Menu_Appbar = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int notification_action = 2130903092;
+			public const int MenuHeaderDrawerLayout = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int notification_action_tombstone = 2130903093;
+			public const int notification_action = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int notification_media_action = 2130903094;
+			public const int notification_action_tombstone = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int notification_media_cancel_action = 2130903095;
+			public const int notification_media_action = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int notification_template_big_media = 2130903096;
+			public const int notification_media_cancel_action = 2130903096;
 			
 			// aapt resource value: 0x7f030039
-			public const int notification_template_big_media_custom = 2130903097;
+			public const int notification_template_big_media = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int notification_template_big_media_narrow = 2130903098;
+			public const int notification_template_big_media_custom = 2130903098;
 			
 			// aapt resource value: 0x7f03003b
-			public const int notification_template_big_media_narrow_custom = 2130903099;
+			public const int notification_template_big_media_narrow = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int notification_template_custom_big = 2130903100;
+			public const int notification_template_big_media_narrow_custom = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int notification_template_icon_group = 2130903101;
+			public const int notification_template_custom_big = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int notification_template_lines_media = 2130903102;
+			public const int notification_template_icon_group = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int notification_template_media = 2130903103;
+			public const int notification_template_lines_media = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int notification_template_media_custom = 2130903104;
+			public const int notification_template_media = 2130903104;
 			
 			// aapt resource value: 0x7f030041
-			public const int notification_template_part_chronometer = 2130903105;
+			public const int notification_template_media_custom = 2130903105;
 			
 			// aapt resource value: 0x7f030042
-			public const int notification_template_part_time = 2130903106;
+			public const int notification_template_part_chronometer = 2130903106;
 			
 			// aapt resource value: 0x7f030043
-			public const int select_dialog_item_material = 2130903107;
+			public const int notification_template_part_time = 2130903107;
 			
 			// aapt resource value: 0x7f030044
-			public const int select_dialog_multichoice_material = 2130903108;
+			public const int select_dialog_item_material = 2130903108;
 			
 			// aapt resource value: 0x7f030045
-			public const int select_dialog_singlechoice_material = 2130903109;
+			public const int select_dialog_multichoice_material = 2130903109;
 			
 			// aapt resource value: 0x7f030046
-			public const int support_simple_spinner_dropdown_item = 2130903110;
+			public const int select_dialog_singlechoice_material = 2130903110;
+			
+			// aapt resource value: 0x7f030047
+			public const int support_simple_spinner_dropdown_item = 2130903111;
 			
 			static Layout()
 			{

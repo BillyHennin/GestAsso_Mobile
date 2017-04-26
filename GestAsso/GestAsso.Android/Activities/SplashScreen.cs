@@ -12,7 +12,8 @@ namespace GestAsso.Droid.Activities
         protected override void OnResume()
         {
             base.OnResume();
-            var startupWork = new Task(async () =>
+            SetContentView(Resource.Layout.ActivityLayoutSplash);
+            new Task(async () =>
             {
                 var isConnected = Equals(XProfile.Get(), null);
                 for (var i = 0; i < 100; i++)
@@ -23,8 +24,7 @@ namespace GestAsso.Droid.Activities
                     ? typeof(ActivityLogin)
                     : typeof(ActivityMain)));
                 Finish();
-            });
-            startupWork.Start();
+            }).Start();
         }
     }
 }

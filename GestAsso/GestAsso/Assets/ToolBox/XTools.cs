@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Json;
+using System.Linq;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using GestAsso.Assets.Users;
 using Newtonsoft.Json;
@@ -37,5 +39,8 @@ namespace GestAsso.Assets.ToolBox
 
         public static Dictionary<string, string> JsonToDict(string strJson)
             => JsonConvert.DeserializeObject<Dictionary<string, string>>(strJson);
+
+        public static string SplitCamelCase(string source) 
+            => string.Join(" ", Regex.Split(source, @"(?<!^)(?=[A-Z])"));
     }
 }

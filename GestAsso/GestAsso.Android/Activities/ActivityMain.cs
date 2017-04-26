@@ -54,7 +54,7 @@ namespace GestAsso.Droid.Activities
             _navigationView = FindViewById<NavigationView>(Resource.Id.nav_view);
             _navigationView.NavigationItemSelected += NavigationView_NavigationItemSelected;
             _navigationView.GetHeaderView(0).FindViewById<TextView>(Resource.Id.txtViewTitle).Text = XTools.User.FullName;
-            _navigationView.GetHeaderView(0).FindViewById<TextView>(Resource.Id.txtViewSubTitle).Text = XTools.User.Role.ToString();
+            _navigationView.GetHeaderView(0).FindViewById<TextView>(Resource.Id.txtViewSubTitle).Text = XTools.SplitCamelCase(XTools.User.Role.ToString()); 
 
             // Creation d'un bouton ActionBarDrawerToggle et ajout é la bar d'action.
             DrawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);

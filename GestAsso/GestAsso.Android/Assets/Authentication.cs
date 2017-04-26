@@ -37,9 +37,9 @@ namespace GestAsso.Droid.Assets
             }
         }
 
-        public static void SimpleRegister(Dictionary<string, string> dict, Activity activity)
+        public static void SimpleRegister(Dictionary<string, object> dict, Activity activity)
         {
-            if (XApi.RegisterVerifyEmail(dict["Email"]))
+            if (XApi.RegisterVerifyEmail(dict["Email"].ToString()))
             {
                 var tempUser = XApi.RegisterNewUser(dict);
                 if (tempUser == null)
