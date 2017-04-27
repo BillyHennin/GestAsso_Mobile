@@ -13,9 +13,9 @@ namespace GestAsso.Droid.Activities
     [Activity(Label = "@string/Register", Theme = "@style/MyTheme")]
     public class ActivityRegister : AppCompatActivity
     {
-        protected override void OnCreate(Bundle savedInstanceState)
+        protected override void OnCreate(Bundle b)
         {
-            base.OnCreate(savedInstanceState);
+            base.OnCreate(b);
             SetContentView(Resource.Layout.ActivityLayoutRegister);
             FindViewById<Button>(Resource.Id.ValidateRegisterButton).Click += RegisterCompte;
         }

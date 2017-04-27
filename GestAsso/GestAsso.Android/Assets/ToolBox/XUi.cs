@@ -52,8 +52,8 @@ namespace GestAsso.Droid.Assets.ToolBox
         /// </summary>
         /// <param name="action">Actions ou methode à effectuer</param>
         /// <param name="activity">Activitée voulu</param>
-        public static void ShowOnMainUi(Action<object> action, Activity activity = null)
-            => XTools.GetActivity(activity).RunOnUiThread(() => { action.Invoke(null); });
+        public static void ShowOnMainUi(Action<object> action, Activity activity)
+            => activity.RunOnUiThread(() => { action.Invoke(null); });
 
         /// <summary>
         ///     Affiche un message d'attente dans une pop up
@@ -70,7 +70,7 @@ namespace GestAsso.Droid.Assets.ToolBox
             mDialog.Show();
             return mDialog;
         }
-
+        
         /// <summary>
         ///     Change l'etat de visibilité de la vue.
         /// </summary>

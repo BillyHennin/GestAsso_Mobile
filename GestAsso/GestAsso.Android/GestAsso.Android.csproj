@@ -169,7 +169,7 @@
     <Compile Include="Activities\ActivityLogin.cs" />
     <Compile Include="Activities\ActivityMain.cs" />
     <Compile Include="Activities\ActivityRegister.cs" />
-    <Compile Include="Activities\SplashScreen.cs" />
+    <Compile Include="Activities\AcitivitySplash.cs" />
     <Compile Include="Assets\Authentication.cs" />
     <Compile Include="Assets\FragmentMain.cs" />
     <Compile Include="Assets\ToolBox\XAction.cs" />
@@ -225,9 +225,6 @@
     <AndroidResource Include="Resources\layout\FragmentLayoutEvent.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\ActivityLayoutSplash.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />
@@ -246,11 +243,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\menu\MenuNavMenu.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\splash_screen.xml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\Icon.png" />
@@ -356,6 +348,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\splash_background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\splash_screen.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
