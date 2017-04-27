@@ -43,7 +43,7 @@ namespace GestAsso.Droid.Activities
                 {"Role", UserRole.Adherent.ToString()}
             };
             Authentication.Authenticate(new UserProfile(dict), this);
-            return;
+
 
             if (!XNetwork.CheckNetwork(this))
             {

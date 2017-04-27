@@ -55,7 +55,8 @@ namespace GestAsso.Assets.Users
         {
             Email,
             Phone,
-            Role
+            Role, 
+            Password
         }
 
         private bool Update(object newValue, UpdateType updateType) 
@@ -90,6 +91,10 @@ namespace GestAsso.Assets.Users
             }
             return updateSuccess;
         }
+
+        public bool UpdatePassword(string newPassword) 
+            => Update(newPassword, UpdateType.Password);
+
         #endregion
     }
 }

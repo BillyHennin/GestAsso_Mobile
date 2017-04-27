@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using GestAsso.Assets.Users;
-using Newtonsoft.Json;
 
 namespace GestAsso.Assets.ToolBox
 {

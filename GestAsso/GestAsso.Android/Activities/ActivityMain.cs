@@ -50,6 +50,7 @@ namespace GestAsso.Droid.Activities
             SupportActionBar.SetDisplayHomeAsUpEnabled(false);
             SupportActionBar.SetDisplayShowHomeEnabled(true);
 
+
             // Ajout de la fonction 'NavigationView_NavigationItemSelected' é l'evenement 'NavigationItemSelected'.
             _navigationView = FindViewById<NavigationView>(Resource.Id.nav_view);
             _navigationView.NavigationItemSelected += NavigationView_NavigationItemSelected;
